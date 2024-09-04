@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Dale_Johnston",
+    "motivations": "1. Passion for Decentralization\nI am deeply committed to the principles of decentralization, believing that power should be distributed and that the community should have a strong voice in the direction of the network.\n2. Desire to Contribute to Cardano’s Success\nI am motivated by the opportunity to play a significant role in shaping the future of Cardano, ensuring its growth and long-term success as a leading blockchain platform.\n3. Community Empowerment\nI am driven by a desire to empower the Cardano community, helping more people get involved in governance and ensuring that diverse perspectives are represented in decision-making processes.\n4. Commitment to Innovation\nI am motivated by a belief in continuous improvement and innovation, aiming to support and drive forward technological advancements that will enhance the Cardano ecosystem.\n5. Building a Sustainable Future\nI am focused on ensuring that Cardano’s growth is sustainable, both environmentally and economically,\n",
+    "objectives": "As a Drep I  will have these objectives:\n\n1. Promote Decentralization and Transparency\n- I believe in the core principle of decentralization, ensuring that power remains distributed across the network an in the hands of the people.\nObjective: I will champion transparency in decision-making processes, ensuring that the community is well-informed and that governance is conducted in an open and inclusive manner.\n\n2. Foster Community Engagement\n- I believe that a strong and engaged community is the way Cardano will succeed.\nObjective: I want to increase participation in governance by educating and empowering community members to voice their opinions and take part in shaping the future of Cardano.\n\n3. Support Innovation and Development\n- I believe in the importance of continuous innovation to keep Cardano at the forefront of blockchain technology.\nObjective: I will advocate for proposals that drive technological advancements, improve scalability, an push Cardano to the masses!\n",
+    "paymentAddress": "addr1qy2gdl42m0r2zn3ax7puyy8f5hhumyuxfcurrmwfqzn7mralvusszu5mqe22fufg2v7n9z7thnrnxdfrk69ar2dvelcsvp82fh",
+    "qualifications": "Electrician (by trade)\nSoftware Design\nGraphic Design\nAnimation\nGame Development\nAudio Production\nVideo Production\nWeb Developer\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Digital Gold Ecosystem Website",
+        "uri": "DigitalGoldEcosystem.com"
+      },
+      {
+        "@type": "Identity",
+        "label": "Digital Gold Ecosystem Team page",
+        "uri": "https://www.digitalgoldecosystem.com/team-2"
+      }
+    ]
+  }
+}
